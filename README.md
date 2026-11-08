@@ -149,6 +149,10 @@ The root application is the canonical template source. See [ADR 0012](./docs/adr
 - [Context & Glossary](./CONTEXT.md) — Ubiquitous language and architecture invariants
 - [Documentation index](./docs/README.md) — Complete documentation and ADR catalog
 
+## Contributing
+
+Contributions are welcome. Fork this repository, create a branch for your change, and open a pull request against `main` on GitHub. Include a clear description of the change and run the relevant checks before submitting. For local setup and project-specific development guidance, see the [contributing guide](./docs/contributing.md).
+
 ## License
 
 [MIT](./LICENSE)
