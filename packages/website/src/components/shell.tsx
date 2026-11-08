@@ -101,6 +101,9 @@ export function Shell({ children }: { children: ReactNode }) {
 					<a href="https://github.com/0x0501/mystack">
 						GitHub <ArrowUpRight />
 					</a>
+					<a href="https://github.com/0xBotMe/Mystack">
+						Contribute on GitHub <ArrowUpRight />
+					</a>
 					<a href="https://www.npmjs.com/package/@0x0501/mystack">
 						npm <ArrowUpRight />
 					</a>
