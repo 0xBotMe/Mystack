@@ -1,3 +1,5 @@
+<p align="right"><a href="./README.zh-CN.md">简体中文</a> | <strong>English</strong></p>
+
 <p align="center">
   <a href="https://mystack.sumku.cc">
     <img src="./public/favicon.svg" width="80" height="80" alt="Mystack Logo" />
