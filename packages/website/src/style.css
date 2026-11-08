@@ -215,6 +215,10 @@ main,
 .masthead-docs {
 	font-size: var(--small);
 }
+.masthead-docs:hover,
+.masthead-docs:focus-visible {
+	text-decoration: underline;
+}
 .masthead-github {
 	margin-left: 10px;
 	min-height: 0;

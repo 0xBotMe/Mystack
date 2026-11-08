@@ -64,7 +64,11 @@ export function Shell({ children }: { children: ReactNode }) {
 					mystack
 				</Link>
 				<p>A starting point. With a point of view.</p>
-				<Link to="/docs" className="masthead-docs">
+				<Link
+					to="/docs"
+					className="masthead-docs"
+					aria-label="Mystack documentation"
+				>
 					Docs
 				</Link>
 				<a
