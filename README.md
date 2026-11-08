@@ -149,6 +149,17 @@ The root application is the canonical template source. See [ADR 0012](./docs/adr
 - [Context & Glossary](./CONTEXT.md) — Ubiquitous language and architecture invariants
 - [Documentation index](./docs/README.md) — Complete documentation and ADR catalog
 
+## Contributing
+
+Contributions are welcome. To contribute:
+
+1. Fork this repository.
+2. Create a branch for your change.
+3. Run `bun run check`.
+4. Open a pull request against `main` on GitHub with a clear description.
+
+For local setup and project-specific development guidance, see the [contributing guide](./docs/contributing.md).
+
 ## License
 
 [MIT](./LICENSE)
