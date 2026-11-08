@@ -151,7 +151,14 @@ The root application is the canonical template source. See [ADR 0012](./docs/adr
 
 ## Contributing
 
-Contributions are welcome. Fork this repository, create a branch for your change, and open a pull request against `main` on GitHub. Include a clear description of the change and run the relevant checks before submitting. For local setup and project-specific development guidance, see the [contributing guide](./docs/contributing.md).
+Contributions are welcome. To contribute:
+
+1. Fork this repository.
+2. Create a branch for your change.
+3. Run `bun run check`.
+4. Open a pull request against `main` on GitHub with a clear description.
+
+For local setup and project-specific development guidance, see the [contributing guide](./docs/contributing.md).
 
 ## License
 
