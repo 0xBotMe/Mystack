@@ -64,8 +64,14 @@ export function Shell({ children }: { children: ReactNode }) {
 					mystack
 				</Link>
 				<p>A starting point. With a point of view.</p>
-				<a href="https://github.com/0x0501/mystack">
-					View on GitHub <ArrowUpRight />
+				<Link to="/docs" className="masthead-docs">
+					Docs
+				</Link>
+				<a
+					className="button masthead-github"
+					href="https://github.com/0x0501/mystack"
+				>
+					Star on GitHub <ArrowUpRight />
 				</a>
 			</header>
 			<nav className="navigation" aria-label="Main navigation">

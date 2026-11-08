@@ -212,8 +212,14 @@ main,
 	font-size: var(--small);
 	line-height: 1.35;
 }
-.masthead > a:last-child {
-	margin-left: 40px;
+.masthead-docs {
+	font-size: var(--small);
+}
+.masthead-github {
+	margin-left: 10px;
+	min-height: 0;
+	padding: 9px 12px;
+	gap: 8px;
 	font-size: var(--small);
 }
 .navigation {
@@ -260,6 +266,10 @@ main,
 	height: 28px;
 	margin-left: 0;
 	vertical-align: baseline;
+}
+.masthead-github > .arrow-icon {
+	width: 0.85em;
+	height: 0.85em;
 }
 .text-link {
 	display: inline-block;
@@ -753,9 +763,12 @@ thead {
 	.masthead p {
 		display: none;
 	}
-	.masthead > a:last-child {
+	.masthead-github {
 		margin-left: auto;
 		font-size: var(--small);
+	}
+	.masthead-docs {
+		margin-left: auto;
 	}
 	.wordmark {
 		font-size: 36px;
