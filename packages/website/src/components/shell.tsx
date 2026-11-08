@@ -63,7 +63,7 @@ export function Shell({ children }: { children: ReactNode }) {
 					</svg>
 					mystack
 				</Link>
-				<p>Compose your stack, your way.</p>
+				<p>Your stack, connected.</p>
 				<Link
 					to="/docs"
 					className="masthead-docs"
