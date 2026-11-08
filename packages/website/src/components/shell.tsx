@@ -5,6 +5,7 @@ import { ArrowUpRight } from "./arrow-up-right";
 import { MechanicalWorld } from "./mechanical-world";
 
 const navigation = [
+	["/about", "About", "What Mystack is"],
 	["/integrations", "Integrations", "Choose your components"],
 	["/foundation", "The foundation", "Explore what comes connected"],
 	["/quick-start", "Quick start", "Create your first project"],

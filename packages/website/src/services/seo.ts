@@ -25,6 +25,11 @@ export const pages: Record<string, { title: string; description: string }> = {
 		description:
 			"Choose compatible runtime, database, email and payment integrations. Watch your selected stack assemble and copy its real CLI command.",
 	},
+	"/about": {
+		title: "About Mystack",
+		description:
+			"Mystack is an open-source project generator for TanStack Start. Choose a runtime, database, email and payments, then own the generated source.",
+	},
 	"/foundation": {
 		title: "The foundation — Mystack",
 		description:

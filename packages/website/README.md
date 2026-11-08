@@ -2,7 +2,9 @@
 
 The English-only official website uses TanStack Start, React and file-based TanStack Router routes. It is independent of the runnable application template. The integration builder shares the generator's real catalog and compatibility rules.
 
-## Run
+## Running the website locally
+
+Install the website dependencies and start its development server:
 
 ```sh
 bun install --cwd packages/website --frozen-lockfile

@@ -124,6 +124,19 @@ function Home() {
 					</Link>
 				</div>
 			</section>
+			<section className="chapter home-about">
+				<div>
+					<h2>About Mystack</h2>
+					<p>
+						Mystack is an open-source project generator for configured TanStack
+						Start applications. Choose your stack, then own the generated
+						source.
+					</p>
+					<Link to="/about" className="text-link">
+						More about Mystack <ArrowUpRight />
+					</Link>
+				</div>
+			</section>
 		</>
 	);
 }
