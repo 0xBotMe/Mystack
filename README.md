@@ -152,3 +152,13 @@ For local setup and project-specific development guidance, see the [contributing
 ## License
 
 [MIT](./LICENSE)
+
+## 常见问题
+
+### What if a port is already in use?
+
+Stop the process using the port, or start the dev server on another port with `PORT=3001 bun run dev`.
+
+### What if dependency installation fails?
+
+Use Bun (`bun install`) from the repository root. If it still fails, remove `node_modules` and retry; check the error output for missing system requirements or network issues.
