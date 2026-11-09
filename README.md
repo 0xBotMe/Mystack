@@ -1,12 +1,3 @@
-## Quick start
-
-Install dependencies and start the development server:
-
-```sh
-bun install
-bun run dev
-```
-
 <p align="center">
   <a href="https://mystack.sumku.cc">
     <img src="./public/favicon.svg" width="80" height="80" alt="Mystack Logo" />
@@ -40,30 +31,17 @@ Every generated project comes complete with hardened authentication (Better Auth
 
 > **Note:** Use `mystack create` to start new projects. This repository maintains the CLI and the canonical reference template; application development happens in the generated project.
 
-## Create a project
+## Quick Start
 
-Install Node.js 22.12+ and [Bun](https://bun.sh). Run the CLI directly from npm to launch the interactive setup wizard:
-
-```sh
-bunx @0x0501/mystack
-```
-
-To create a project in a specific directory:
+Create a project and start its development server:
 
 ```sh
 bunx @0x0501/mystack@latest create my-app
 cd my-app
-```
-
-Follow the generated `README.md` to configure `.env`, apply database migrations, and start your dev server:
-
-```sh
-cp .env.example .env
-bun run db:migrate
 bun run dev
 ```
 
-Open **http://localhost:3000**. In development, authentication emails are logged directly to the console when provider credentials are omitted.
+In development, authentication emails are logged directly to the console when provider credentials are omitted.
 
 ### Common Recipes
 
