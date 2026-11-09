@@ -159,6 +159,10 @@ For local setup and project-specific development guidance, see the [contributing
 
 Stop the process using the port, or start the dev server on another port with `PORT=3001 bun run dev`.
 
+Find the process using port 3000 with `lsof -ti :3000`.
+
 ### What if dependency installation fails?
 
 Use Bun (`bun install`) from the repository root. If it still fails, remove `node_modules` and retry; check the error output for missing system requirements or network issues.
+
+Reinstall dependencies with `rm -rf node_modules && bun install`.
