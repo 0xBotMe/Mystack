@@ -38,10 +38,12 @@ Create a project and start its development server:
 ```sh
 bunx @0x0501/mystack@latest create my-app
 cd my-app
+cp .env.example .env
+bun run db:migrate
 bun run dev
 ```
 
-In development, authentication emails are logged directly to the console when provider credentials are omitted.
+Open **http://localhost:3000**. In development, authentication emails are logged directly to the console when provider credentials are omitted.
 
 ### Common Recipes
 
