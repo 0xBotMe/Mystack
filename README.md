@@ -149,7 +149,7 @@ Contributions are welcome. To contribute:
 3. Run `bun run check`.
 4. Open a pull request against `main` on GitHub with a clear description.
 
-New here? Start with the [contributing guide](./docs/contributing.md) before opening a pull request.
+See the [contributing guide](./docs/contributing.md) for development guidance.
 
 ## License
 

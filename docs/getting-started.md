@@ -4,7 +4,7 @@ Every new application starts with `mystack create`. The starter repository is th
 
 ## Run the CLI
 
-You need Node.js 22.12+ to run Mystack and Bun to install and run generated applications. PostgreSQL local development also needs Docker. Cloudflare deployments need a Cloudflare account; local Bun SQLite and libSQL development need no cloud database account.
+You need Node.js 22.12+ to run Mystack. Bun is required to install and run generated applications. PostgreSQL local development also needs Docker. Cloudflare deployments need a Cloudflare account; local Bun SQLite and libSQL development need no cloud database account.
 
 Run the public `@0x0501/mystack` package through Bunx:
 
