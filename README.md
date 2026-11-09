@@ -1,3 +1,12 @@
+## Quick start
+
+Install dependencies and start the development server:
+
+```sh
+bun install
+bun run dev
+```
+
 <p align="center">
   <a href="https://mystack.sumku.cc">
     <img src="./public/favicon.svg" width="80" height="80" alt="Mystack Logo" />
@@ -31,7 +40,7 @@ Every generated project comes complete with hardened authentication (Better Auth
 
 > **Note:** Use `mystack create` to start new projects. This repository maintains the CLI and the canonical reference template; application development happens in the generated project.
 
-## Quick Start
+## Create a project
 
 Install Node.js 22.12+ and [Bun](https://bun.sh). Run the CLI directly from npm to launch the interactive setup wizard:
 
