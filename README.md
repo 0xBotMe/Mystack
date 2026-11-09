@@ -33,22 +33,11 @@ Every generated project comes complete with hardened authentication (Better Auth
 
 ## Quick Start
 
-Install Node.js 22.12+ and [Bun](https://bun.sh). Run the CLI directly from npm to launch the interactive setup wizard:
-
-```sh
-bunx @0x0501/mystack
-```
-
-To create a project in a specific directory:
+Create a project and start its development server:
 
 ```sh
 bunx @0x0501/mystack@latest create my-app
 cd my-app
-```
-
-Follow the generated `README.md` to configure `.env`, apply database migrations, and start your dev server:
-
-```sh
 cp .env.example .env
 bun run db:migrate
 bun run dev
