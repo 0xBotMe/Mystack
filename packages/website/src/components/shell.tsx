@@ -127,6 +127,19 @@ export function Shell({ children }: { children: ReactNode }) {
 				<Link to="/integrations" className="footer-cta">
 					Build your stack <ArrowUpRight />
 				</Link>
+				<button
+					className="footer-back-to-top"
+					type="button"
+					onClick={() => {
+						const reduceMotion = window.matchMedia(
+							"(prefers-reduced-motion: reduce)",
+						).matches;
+						const behavior = reduceMotion ? "instant" : "smooth";
+						window.scrollTo({ top: 0, behavior });
+					}}
+				>
+					Back to top ↑
+				</button>
 				<div className="footer-mark" aria-hidden="true">
 					mystack
 				</div>

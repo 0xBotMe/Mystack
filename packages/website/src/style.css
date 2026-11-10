@@ -683,6 +683,16 @@ thead {
 	align-self: end;
 	font-size: 48px;
 }
+.footer-back-to-top {
+	justify-self: start;
+	padding: 12px 16px;
+	background: var(--surface);
+	color: var(--ink);
+	font-size: var(--small);
+}
+.footer-back-to-top:hover {
+	background: var(--raised);
+}
 .footer-mark {
 	grid-column: 1 / -1;
 	font-size: 23vw;
