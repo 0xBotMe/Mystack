@@ -25,7 +25,12 @@ export function Shell({ children }: { children: ReactNode }) {
 				Skip to content
 			</a>
 			<header className="masthead">
-				<Link to="/" className="wordmark" aria-label="Mystack home">
+				<Link
+					to="/"
+					id="home-link"
+					className="wordmark"
+					aria-label="Mystack home"
+				>
 					<svg viewBox="5.5 8.5 53 47.5" aria-hidden="true">
 						<g stroke="#c9c3ad" strokeWidth="1.1" strokeLinejoin="round">
 							<polygon
@@ -136,6 +141,9 @@ export function Shell({ children }: { children: ReactNode }) {
 						).matches;
 						const behavior = reduceMotion ? "instant" : "smooth";
 						window.scrollTo({ top: 0, behavior });
+						document.getElementById("home-link")?.focus({
+							preventScroll: true,
+						});
 					}}
 				>
 					Back to top ↑
