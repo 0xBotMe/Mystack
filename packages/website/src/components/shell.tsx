@@ -146,7 +146,7 @@ export function Shell({ children }: { children: ReactNode }) {
 						});
 					}}
 				>
-					Back to top ↑
+					Back to top<span aria-hidden="true"> ↑</span>
 				</button>
 				<div className="footer-mark" aria-hidden="true">
 					mystack
